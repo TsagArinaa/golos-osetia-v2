@@ -43,6 +43,7 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pochaevsk&family=Podkova:wght@400..800&family=Poiret+One&display=swap');
 .register-page {
   width: 100%;
   height: 100vh;
@@ -89,7 +90,7 @@
 }
 
 .form-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Podkova', serif;
   font-weight: 700;
   font-size: 36px;
   color: #ffffff;
@@ -98,7 +99,7 @@
 }
 
 .form-subtitle {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', serif;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
@@ -117,7 +118,7 @@
   border-radius: 10px;
   padding: 0 15px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', serif;
   font-size: 15px;
   outline: none;
   transition: 0.3s;
@@ -152,6 +153,7 @@
   color: rgba(255, 255, 255, 0.8);
   font-size: 13px;
   cursor: pointer;
+  font-family: "Montserrat";
 }
 
 .terms-checkbox {
@@ -170,7 +172,7 @@
   border: none;
   border-radius: 20px;
   color: #ffffff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', serif;
   font-weight: 700;
   font-size: 18px;
   cursor: pointer;
@@ -186,11 +188,12 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
+  font-family: "montserrat";
 }
 
 .login-link a {
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: none;
 }
 
