@@ -116,9 +116,6 @@ const goToReportProblem = () => {
   width: 716px;
   position: absolute;
   right: 0;
-  transform: translateX(-100%);
-  opacity: 0;
-  animation: slideFromLeftToRight 0.8s cubic-bezier(0.34, 1.2, 0.64, 1) forwards;
 }
 
 .hero-image img {
