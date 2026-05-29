@@ -229,5 +229,6 @@ const goToReportProblem = () => {
   width: 35px;
   height: auto;
   margin-top: -35px;
+  filter: brightness(0) saturate(100%) invert(66%) sepia(28%) saturate(731%) hue-rotate(82deg) brightness(92%) contrast(90%);
 }
 </style>
