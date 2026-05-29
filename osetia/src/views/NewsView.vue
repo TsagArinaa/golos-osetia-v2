@@ -322,7 +322,7 @@ const openNews = (url) => {
 .empty-news {
   text-align: center;
   padding: 50px 0;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', serif;
   font-size: 18px;
   color: #7a7d85;
 }
